@@ -62,7 +62,7 @@ body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h3, h5, h6, input,
    legend, li, ol, p, select, table, td, textarea, th, ul {
    margin: 0;
    padding: 0;
-   webkit-text-size-adjust: none;
+   /* webkit-text-size-adjust: none; */
 }
 boby, html {
    width: 100%;
@@ -84,10 +84,10 @@ select{
    height : 30px;
    padding : 5px;
 }
-#mail_Select option{
+/* #mail_Select option{
    
    text-height : 30px;
-}
+} */
 #mail_Input{
    display : inline-block;
    width : 50%;
@@ -108,7 +108,7 @@ select{
    width:0px auto;
    display : inline-block;
    color : red;
-   font-align : right;
+   /* font-align : right; */
    font-size : 11px;
    font-weight: normal;
    margin-left : 10px;
@@ -237,7 +237,7 @@ select{
 }
 #addressButton{
    text-align : center;
-   text-width : 0px auto; 
+   /* text-width : 0px auto;  */
    background-color : #A7E1EB;
    width :  0px auto;
    font-weight : bold;
@@ -268,8 +268,8 @@ select{
    padding-left: 14px;
    background: #fff;
    box-sizing: border-box;
-   vertical-align: top;
-   vertical-align: top;
+   /* vertical-align: top;
+   vertical-align: top; */
 }
 
 .int {
@@ -363,14 +363,14 @@ button, input, select, textarea {
     background-position-x: 0px;
     background-position-y: 0px;
     background-size: initial;
-    background-repeat-x: initial;
-    background-repeat-y: initial;
+    /* background-repeat-x: initial;
+    background-repeat-y: initial; */
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
     background-color: initial;
    /*  -webkit-appearance: none; */
-    -moz-appearance: none;
+    /* -moz-appearance: none; */
     /* appearance: none; */
     outline: 0;
     text-decoration: none;
