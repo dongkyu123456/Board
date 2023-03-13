@@ -9,8 +9,8 @@ import org.springframework.stereotype.Service;
 import org.zerock.project1.dto.BoardDTO;
 import org.zerock.project1.dto.PageRequestDTO;
 import org.zerock.project1.dto.PageResultDTO;
-import org.zerock.project1.enitity.Board;
-import org.zerock.project1.enitity.Member;
+import org.zerock.project1.entity.Board;
+import org.zerock.project1.entity.Member;
 import org.zerock.project1.repository.BoardRepository;
 import org.zerock.project1.repository.ReplyRepository;
 

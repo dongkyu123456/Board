@@ -1,4 +1,4 @@
-package org.zerock.ex5.repository.search;
+package org.zerock.project1.repository.search;
 
 import com.querydsl.core.BooleanBuilder;
 import com.querydsl.core.Tuple;
@@ -13,10 +13,10 @@ import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.repository.support.QuerydslRepositorySupport;
-import org.zerock.ex5.enitity.Board;
-import org.zerock.ex5.enitity.QBoard;
-import org.zerock.ex5.enitity.QMember;
-import org.zerock.ex5.enitity.QReply;
+import org.zerock.project1.entity.Board;
+import org.zerock.project1.entity.QBoard;
+import org.zerock.project1.entity.QMember;
+import org.zerock.project1.entity.QReply;
 
 import java.util.List;
 import java.util.stream.Collectors;
